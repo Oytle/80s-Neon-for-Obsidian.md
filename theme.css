@@ -53,6 +53,9 @@
   --text-muted: var(--accent-1-muted);
   --text-faint: var(--accent-6-muted);
 
+  --bold-color: var(--accent-3);
+  --italic-color: var(--accent-2-muted);
+
   --interactive-normal: var(--accent-2);
   --interactive-hover: var(--accent-2-muted);
   --interactive-accent: var(--accent-2);
