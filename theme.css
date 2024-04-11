@@ -25,6 +25,12 @@
 /*    6.3. Text blur effect
 
 /* 1. Colours! Overriding both themes */
+
+.cm-s-obsidian span.cm-formatting-em.cm-formatting-strong,
+.cm-s-obsidian span.cm-em.cm-strong {
+  color:  orange;
+}
+
 .theme-dark,
 .theme-light {
   --accent-1: #FF00FF;
@@ -76,6 +82,9 @@
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
 }
 
+/* 1.99999. hey */
+
+
 /* 2. General UI */
 .side-dock-ribbon-tab,
 .side-dock-ribbon-action {
@@ -85,6 +94,14 @@
 .workspace-leaf.mod-active .workspace-leaf-header-title {
   color: var(--text-accent);
 }
+
+/* 2.0::me */
+/* 2.0.0. Focus Mode */
+
+.side-dock-ribbon {
+  display: none;
+}
+
 
 /* 2.1. Title bar */
 .titlebar {
